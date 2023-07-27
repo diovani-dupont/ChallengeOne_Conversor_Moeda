@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.conversor_moedas.principal.PrincipalController">    <left>
+        <AnchorPane prefHeight="410.0" prefWidth="230.0" style="-fx-background-color: #2CB4D4;" BorderPane.alignment="CENTER">
+            <Circle fill="#2c5fd430" layoutX="115.0" layoutY="215.0" opacity="0.5" radius="100.0" stroke="#2c5fd48f" strokeType="INSIDE">
+                <effect>
+                    <DropShadow />
+                </effect>
+            </Circle>
+            <Label alignment="CENTER" layoutX="6.0" layoutY="181.0" prefHeight="39.0" prefWidth="217.0" text="CONVERSOR" textFill="WHITE">
+                <font>
+                    <Font name="MyriadPro-Bold" size="24.0" />
+                </font>
+                <effect>
+                    <Reflection topOffset="-10.0" />
+                </effect>
+            </Label>
+            <Line endX="43.0" layoutX="143.0" layoutY="215.0" startX="-100.0" stroke="WHITE" />
+            <Label layoutX="21.0" layoutY="429.0" prefHeight="21.0" prefWidth="189.0" text="Copyright (c) 2023 Diovani Dupont" textFill="WHITE" />
+            <Label layoutX="65.0" layoutY="450.0" text="All Rights Reserved" textFill="WHITE" />
+            <ImageView fitHeight="195.0" fitWidth="195.0" layoutX="17.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@img/coins_icon.png" />
+            </ImageView>
+         <Button fx:id="BotaoSair" layoutX="52.0" layoutY="506.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="Sair" />
+        </AnchorPane>
+    </left>
+   <center>
+        <AnchorPane prefHeight="400.0" prefWidth="490.0" BorderPane.alignment="CENTER">
+            <Label alignment="CENTER" layoutX="137.0" layoutY="40.0" prefHeight="39.0" prefWidth="217.0" text="SELECIONE UMA MOEDA" textFill="#2cb4d4">
+                <font>
+                    <Font name="MyriadPro-Bold" size="14.0" />
+                </font>
+            </Label>
+            <ComboBox fx:id="comboBoxMoedaDe" layoutX="45.0" layoutY="79.0" prefHeight="30.0" prefWidth="180.0" />
+            <TextField fx:id="InsereValor" layoutX="46.0" layoutY="159.0" prefHeight="30.0" prefWidth="400.0" />
+            <Label alignment="CENTER" layoutX="137.0" layoutY="120.0" prefHeight="39.0" prefWidth="217.0" text="INSIRA UM VALOR" textFill="#2cb4d4">
+                <font>
+                    <Font name="MyriadPro-Bold" size="14.0" />
+                </font>
+            </Label>
+            <ComboBox fx:id="ConverteTaxa" layoutX="46.0" layoutY="381.0" prefHeight="30.0" prefWidth="400.0" />
+            <Label alignment="CENTER" layoutX="137.0" layoutY="342.0" prefHeight="39.0" prefWidth="217.0" text="CALCULAR TAXA INTERBANCÁRIA" textFill="#2cb4d4">
+                <font>
+                    <Font name="MyriadPro-Bold" size="14.0" />
+                </font>
+            </Label>
+            <Button fx:id="BotaoConversao" layoutX="45.0" layoutY="202.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="400.0" text="Calcular" />
+            <Label fx:id="ResultadoConversao" alignment="CENTER" layoutX="96.0" layoutY="261.0" prefHeight="50.0" prefWidth="300.0" text="..." textFill="#2cb4d4">
+                <font>
+                    <Font name="MyriadPro-Bold" size="48.0" />
+                </font>
+            <cursor>
+               <Cursor fx:constant="OPEN_HAND" />
+            </cursor>
+            </Label>
+            <Button fx:id="BotaoTaxa" layoutX="45.0" layoutY="429.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="400.0" text="Calcular" />
+            <Label fx:id="ResultadoTaxa" alignment="CENTER" layoutX="96.0" layoutY="490.0" prefHeight="50.0" prefWidth="300.0" text="..." textFill="#2cb4d4">
+                <font>
+                    <Font name="MyriadPro-Bold" size="48.0" />
+                </font>
+            </Label>
+         <ComboBox fx:id="comboBoxMoedaPara" layoutX="266.0" layoutY="79.0" prefHeight="30.0" prefWidth="180.0" />
+        </AnchorPane>
+   </center>
+
+</BorderPane>

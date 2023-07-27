@@ -1,0 +1,24 @@
+# Arquivos e diretórios específicos da IDE IntelliJ
+.idea/
+*.iml
+
+# Diretório de compilação do Maven
+/target/
+
+# Arquivos de log
+*.log
+
+# Diretório específico do Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Outros arquivos e diretórios que podem ser gerados durante a compilação ou execução
+/out/
+
+# Bibliotecas binárias
+/lib/
+
+# Evitar arquivos de sistema
+.DS_Store  # para usuários de MacOS
+Thumbs.db   # para usuários de Windows
