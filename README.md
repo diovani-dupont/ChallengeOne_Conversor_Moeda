@@ -77,5 +77,6 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo `LICENSE.m
 
 Desenvolvido por Diovani Dupont.
 
-![image](https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/060f990a-18bb-4616-86d3-5459e6be9901)
+![Captura de tela 2023-07-27 141517](https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/3481ca89-7e0d-47e1-893e-6fc9f15620ce)
+
 
