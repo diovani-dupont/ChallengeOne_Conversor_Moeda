@@ -3,7 +3,7 @@
 Um aplicativo em Java que converte entre várias moedas. Este conversor usa uma API para obter cotações em tempo real e apresenta uma interface de usuário desenvolvida com JavaFX.
 
 <p align="center">
-  <img src="https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/4af0f76d-3897-4ff0-8a6d-d9826170b800" alt="Conversor_de_Moeda" width="500">
+  <img src="https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/b5522372-07d9-49b0-93b6-9e4b605daab9" alt="Conversor_de_Moeda" width="400">
 </p>
 
 ## 🔍 Características
