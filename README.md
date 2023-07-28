@@ -2,6 +2,9 @@
 
 Um aplicativo em Java que converte entre várias moedas. Este conversor usa uma API para obter cotações em tempo real e apresenta uma interface de usuário desenvolvida com JavaFX.
 
+![Conversor_de_Moeda](https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/b33ec7c5-03ea-4f54-a88e-2f50259e73a5)
+
+
 ## 🔍 Características
 
 - Conversão entre várias moedas, incluindo Reais, Dólares, Euros, Libras, Peso Argentino e Peso Chileno.
@@ -77,6 +80,5 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo `LICENSE.m
 
 Desenvolvido por Diovani Dupont.
 
-![Captura de tela 2023-07-27 141517](https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/3481ca89-7e0d-47e1-893e-6fc9f15620ce)
 
 
