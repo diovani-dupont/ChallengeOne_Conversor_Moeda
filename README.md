@@ -2,8 +2,9 @@
 
 Um aplicativo em Java que converte entre várias moedas. Este conversor usa uma API para obter cotações em tempo real e apresenta uma interface de usuário desenvolvida com JavaFX.
 
-![Conversor_de_Moeda](https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/6a9db866-859c-4767-ab50-0118838d6577)
-
+<p align="center">
+  <img src="https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/6a9db866-859c-4767-ab50-0118838d6577" alt="Conversor_de_Moeda" width="500">
+</p>
 
 ## 🔍 Características
 
