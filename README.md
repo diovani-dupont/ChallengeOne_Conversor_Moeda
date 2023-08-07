@@ -83,6 +83,7 @@ Desenvolvido por Diovani Dupont.
 
 <h2 align="center">Recompensa de conclusão do desafio!</h2>
 
+<p align="center">
 ![image](https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/81849fe9-0aba-43c6-b72f-c6549d2882bb)
-
+</p>
 
