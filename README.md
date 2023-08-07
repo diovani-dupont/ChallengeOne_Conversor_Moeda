@@ -84,7 +84,9 @@ Desenvolvido por Diovani Dupont.
 <h2 align="center">Recompensa de conclusão do desafio!</h2>
 
 <p align="center">
-  <img src="https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1671211937Prancheta_8.png?utm_campaign=alura_latam_-_challenge_email_projeto_5_br&utm_medium=email&utm_source=RD+Station" alt="Your image" width="400">
+  <img src="https://github.com/diovani-dupont/ChallengeOne_Conversor_Moeda/assets/109030838/fab5dc4c-9ee3-49fc-b6b4-ac7790179352">
 </p>
+
+
 
 
